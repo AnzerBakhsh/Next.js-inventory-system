@@ -1,9 +1,7 @@
+import Dashboard from "@/app/dashboard/page";
 export default function Home() {
   return (
+   <Dashboard />
    
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-       
-       <p className="bg-amber-400">hello</p>
-      </main>
   );
 }
